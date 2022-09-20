@@ -10,6 +10,7 @@ nav li a {
   vertical-align: middle;
   text-align: center;
 }
+
 nav li a:hover {
   transition: all 0.5s;
   color: blue;
@@ -66,7 +67,10 @@ li {
   white-space: nowrap;
   padding-right: 15px;
 }
-
+.navbar-collapse.navbar-nav.me-auto.mb-3.mb-lg-0.collapse.show li{
+  width: 100vw;
+  text-align: right;
+}
 .card .stars .fa-solid{
   color: rgb(255, 215, 0);
 }
@@ -109,7 +113,7 @@ footer section {
 }
 
 .social-media-icon li{
-  margin-right: 50px;
+  margin-right:40px;
   font-size: 2rem;
   transition: all 0.5s;
 }
