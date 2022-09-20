@@ -14,12 +14,9 @@ nav li a:hover {
   transition: all 0.5s;
   color: blue;
 }
-nav ul {
-  justify-content: flex-end;
-  align-content: center;
-}
 .button-container {
   margin-left: 1rem;
+  margin-right: auto;
 }
 .bi.bi-person-fill {
   font-size: 1.4rem;
