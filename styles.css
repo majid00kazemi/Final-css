@@ -1,0 +1,127 @@
+* {
+  font-family: "IRANSans";
+}
+
+nav li a {
+  margin: 16px;
+  font-size: 1.2rem;
+  transition: all 0.5s;
+  color: rgb(0, 0, 0);
+  vertical-align: middle;
+  text-align: center;
+}
+nav li a:hover {
+  transition: all 0.5s;
+  color: blue;
+}
+nav ul {
+  justify-content: flex-end;
+  align-content: center;
+}
+.button-container {
+  margin-left: 1rem;
+}
+.bi.bi-person-fill {
+  font-size: 1.4rem;
+}
+.navbar-collapse {
+  margin-right: 16px !important;
+}
+.header-image img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}
+
+li {
+  display: inline-block;
+}
+.card {
+  box-shadow: rgb(167, 167, 167);
+  border: none;
+}
+.expand-button {
+  background-color: #ff0063;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 60px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  width: auto;
+  max-width: 32px;
+  transition: max-width 0.5s;
+}
+.expand-button:hover {
+  max-width: 100px;
+  color: rgb(255, 255, 255);
+}
+.expand-button .icon {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 0px 8px;
+  display: flex;
+  align-items: center;
+}
+
+.expand-button .text {
+  white-space: nowrap;
+  padding-right: 15px;
+}
+
+.card .stars .fa-solid{
+  color: rgb(255, 215, 0);
+}
+.card .stars .fa-solid.gray {
+  color: rgb(114, 114, 114);
+}
+.btm-sctin-cont a{
+  margin-right: 6px;
+}
+.top-part ul{
+  padding-left: 0;
+}
+.card-img-top{
+  height: 9.375rem;
+}
+.price{
+  font-size: .9rem;
+  display: inline-block;
+  
+}
+.container-husky{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.husky{
+  font-size: 2rem;
+  margin:16px;
+  width: fit-content;
+  border-bottom: 3px solid rgb(204, 5, 5) ;
+}
+footer{
+  background-color:  rgb(114, 114, 114);
+  color: rgb(255,255,255);
+  height: fit-content;
+  padding-bottom: 50px;
+}
+footer section {
+  margin-top: 50px;
+}
+
+.social-media-icon li{
+  margin-right: 50px;
+  font-size: 2rem;
+  transition: all 0.5s;
+}
+.social-media-icon li:hover{
+  color: rgb(41, 158, 255);
+}
+
+@media (max-width: 768px) {
+  .header-image img {
+    height: 500px;
+  }
+}

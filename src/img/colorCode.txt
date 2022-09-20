@@ -1,0 +1,23 @@
+font-family: IRANSans
+***
+Card:
+box-shadow: rgb )167 ,167 ,167(
+***
+Card-btn-p:
+background: rgb(214, 26, 26);
+color: rgb(255, 255, 255);
+***
+star-btn:
+color: rgb(255, 215, 0);
+color: rgb(114, 114, 114);
+***
+btn-fav:
+background-color:#FF0063;
+color: rgb(255, 255, 255);
+***
+footer:
+background: rgb(114, 114, 114);
+color: rgb(255, 255, 255);
+***
+border -text: 
+rgb(204, 5, 5);
