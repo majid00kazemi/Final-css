@@ -17,61 +17,74 @@
     <!-- End of links -->
   </head>
   <body>
-    <header
-      class="navbar sticky-top container-fluid navbar-expand-lg bg-light d-flex  flex-row-reverse justify-content-end align-items-center"
-    >
-      
-      <nav class="justify-content-between">
-        <section class="text-end">
+    <!-- Start header -->
+    <header class="container-fluid sticky-top bg-light">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <!-- Container wrapper -->
+        <div class="container-fluid d-flex flex-row-reverse">
+          <!-- Toggle button -->
           <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarTogglerDemo01"
-            aria-controls="navbarTogglerDemo01"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <i class="fas fa-bars"></i>
           </button>
-          <ul
-            class="collapse navbar-collapse navbar-nav me-auto mb-3 mb-lg-0"
-            id="navbarTogglerDemo01"
-          >
-            <li class="nav-item">
-              <a href="" class=""
-                ><i class="fa-sharp fa-solid fa-magnifying-glass"></i
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a href=""><i class="fa-regular fa-user"></i></a>
-            </li>
-            <li class="nav-item">
-              <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-            </li>
-            <li class="nav-item">
-              <a href=""><i class="fa-solid fa-house"></i></a>
-            </li>
-          </ul>
-        </section>
-      </nav>
-      <section class="button-container">
-        <button type="button" class="btn btn-outline-dark">
-          ثبت نام / ورود
-          <span class="bi bi-person-fill"> </span>
-        </button>
-      </section>
-    </header>
 
+          <!-- Collapsible wrapper -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+
+            <!-- Icons -->
+            <ul class="navbar-nav d-flex text-end me-1">
+              <li class="nav-item">
+                <a href="" class=""
+                  ><i class="fa-sharp fa-solid fa-magnifying-glass"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a href=""><i class="fa-regular fa-user"></i></a>
+              </li>
+              <li class="nav-item">
+                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+              </li>
+              <li class="nav-item">
+                <a href=""><i class="fa-solid fa-house"></i></a>
+              </li>
+            </ul>
+          </div>
+          <!-- Navbar brand -->
+          <button type="button" class="btn btn-outline-dark navbar-brand">
+            <span>ثبت نام / ورود</span>
+            <span class="bi bi-person-fill"> </span>
+          </button>
+        </div>
+        <!-- Container wrapper -->
+      </nav>
+      <!-- Navbar -->
+    </header>
+    <!-- End header -->
+
+    <!-- Statr header image -->
     <section class="header-image">
       <img src="src/img/header.jpg" class="img-fluid" alt="" />
     </section>
+    <!-- End header image -->
     <br />
     <br />
+
+    <!-- Start main -->
     <main class="container-fluid">
       <!--Start Dogs Container  -->
 
-      <section class="d-flex justify-content-evenly flex-wrap">
+      <section
+        class="d-flex justify-content-evenly align-content-around flex-wrap"
+      >
         <!-- Start dog 1 -->
         <div class="card shadow p-3 mb-5 bg-body" style="width: 18rem">
           <section
@@ -206,7 +219,7 @@
         <p class="husky text-end">نژاد هاسکی</p>
       </div>
 
-      <!--Start Dogs Container  -->
+      <!--Start Husky Container  -->
 
       <section class="d-flex justify-content-evenly flex-wrap">
         <!-- Start dog 1 -->
@@ -337,13 +350,17 @@
         </div>
         <!-- End dog 4 -->
       </section>
-      <!--End Dogs Container  -->
+      <!--End Husky Container  -->
     </main>
+    <!-- End main -->
 
+    <!-- Start Footer -->
     <footer class="text-end">
+      <!-- Start footer container -->
       <div
         class="footer-container container d-flex flex-wrap justify-content-between flex-row-reverse"
       >
+      <!-- Start about us -->
         <section class="about col-md-12 col-sm-12 col-lg-6">
           <h2>درباره ما</h2>
           <p>
@@ -360,6 +377,9 @@
             طراحی اساسا مورد استفاده قرار گیرد.
           </p>
         </section>
+        <!-- End about us -->
+
+        <!-- Start social -->
         <section class="social col-md-12 col-sm-12 col-lg-5">
           <p>مارا در شبکه های اجتمای دنبال کنید</p>
           <ul class="social-media-icon">
@@ -369,8 +389,11 @@
             <li><i class="bi bi-twitter"></i></li>
           </ul>
         </section>
+        <!-- End social -->
       </div>
+      <!-- End footer container -->
     </footer>
+    <!-- End footer -->
 
     <!-- Script section -->
     <script src="src/bootstrap/js/bootstrap.bundle.min.js"></script>
