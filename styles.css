@@ -36,7 +36,7 @@ nav li a:hover {
 
 /* start cards */
 .card {
-  box-shadow: rgb(167, 167, 167);
+  box-shadow:4px 4px 12px 5px rgb(167 167 167) !important;
   border: none;
 }
 .expand-button {
@@ -85,6 +85,9 @@ nav li a:hover {
 .price{
   font-size: .9rem;
   display: inline-block;
+} 
+.badge{
+  font-weight: inherit;
 }
 /* End cards */
 
